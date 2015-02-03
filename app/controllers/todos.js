@@ -2,6 +2,8 @@ import Ember from 'ember';
 
 export default Ember.Controller.extend({
 
+  itemController: 'todo',
+
   actions: {
     createTodo: function() {
       // Get the todo title set by the "New Todo" text field
